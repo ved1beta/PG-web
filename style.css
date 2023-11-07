@@ -1,4 +1,8 @@
-.header{
+body {
+    font-family: monospace;
+}
+
+.header {
     display: flex;
     justify-content: space-between;
     margin-left: 50px;
@@ -6,9 +10,61 @@
     margin-top: 10px;
 
 }
-.line{
+
+.line {
     border: 0.4px solid black;
     margin-left: 50px;
     margin-right: 50px;
     margin-top: 10px;
+}
+
+.logo {
+    font-size: xx-large;
+}
+
+
+
+button {
+    padding: 5px;
+    border: 0.1px solid black;
+border-radius: 3px;
+
+}
+.log{
+    background-color: white;
+}
+.sign{
+    color: white;
+    background-color: black;
+}
+.cont{
+    padding-top: 100px;
+    padding-left: 50px;
+   
+}
+.big{
+    font-size:larger;
+}
+.txt{
+   
+    width: 70%;
+}
+#search{
+    padding: 3px;
+}
+.search{
+    padding-top: 8px;
+}
+#line2{
+  
+margin: 0px;
+margin-top: 80px;
+border-radius: 3px;
+border: solid black 0.1px;
+}
+.title{
+    border: 1px solid black;
+    width: 20%;
+    height: 10px;
+
 }
